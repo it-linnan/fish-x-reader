@@ -1,0 +1,19 @@
+/* 阅读页面 */
+.renderTargetContainer, .readerChapterContent_container {
+    background-color: rgba(${backgroundColor}, 100) !important;
+}
+
+/* 阅读页面右上角头像 */
+.wr_avatar {
+    display: none !important;
+}
+
+/* 阅读页面文字 */
+.readerChapterContent {
+    color: rgba(${fontColor}, 100) !important;
+}
+
+/* 阅读页面透明背景 */
+.wr_horizontalReader .readerChapterContent, .readerTopBar, .readerControls_item {
+    background-color: transparent !important;
+}

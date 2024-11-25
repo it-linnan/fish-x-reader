@@ -1,0 +1,23 @@
+<idea-plugin>
+    <id>com.lin.plugin.fish.reader</id>
+    <name>Fish Reader</name>
+    <vendor email="itlinnan@163.com" url="https://it-linnan.github.io">linnan</vendor>
+
+    <description> <![CDATA[
+        This plugin, known as the "Idle Reading" tool, allows you to log into WeChat Reading directly within your IDE, providing an immersive reading experience while disguised as a sidebar, allowing you to read silently during work hours. With reading time accumulation and a leaderboard, it boosts your reading efficiency and enjoyment. <br/>
+        摸鱼阅读让你在IDE中轻松登录微信读书，实现沉浸式阅读体验。侧边栏伪装，帮助你在工作时也能悄无声息地阅读。阅读时长累积，时长排行榜卷起来，提升你的阅读效率与乐趣。
+    ]]></description>
+
+    <idea-version since-build="232" until-build="243.*"/>
+
+    <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow id="XReader"
+                    anchor="right" icon="AllIcons.General.ReaderMode"
+                    factoryClass="priv.lin.plugin.fish.reader.ui.ReaderToolWindowFactory"
+        />
+    </extensions>
+</idea-plugin>

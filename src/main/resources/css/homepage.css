@@ -1,0 +1,37 @@
+.wr_index_page_header_wrapper, .wr_index_page_wrapper {
+    background-color: rgba(${backgroundColor}) !important;
+}
+
+.wr_index_page_top_section_header_title_lang_shelf,
+.wr_index_page_top_section_content_title,
+.wr_index_page_rank_list_title,
+.wr_index_page_category_list_title_lang {
+    color: rgba(${fontColor}) !important;
+}
+
+
+.wr_index_mini_shelf_card_content_title, .wr_index_mini_shelf_card_content_author,
+.wr_suggestion_card_content_title, .wr_suggestion_card_content_author, .wr_suggestion_card_content_reason,
+.wr_index_page_mini_bookInfo_content_title_name, .wr_index_page_mini_bookInfo_content_author, .wr_index_page_mini_bookInfo_content_recommend_lang
+.wr_index_page_category_list_content_card_name, .wr_index_page_category_list_content_card_count {
+    color: rgba(${fontColor}) !important;
+}
+
+.wr_index_mini_shelf_card,
+.wr_suggestion_card_wrapper,
+.wr_index_page_rank_list_card,
+.wr_index_page_category_list_content_card {
+    background-color: transparent !important;
+}
+
+.wr_index_page_header_search_wrapper, .wr_index_page_search_bar_wrapper {
+    background: transparent !important;
+}
+
+.wr_index_page_search_bar_input {
+    color: rgba(${fontColor}) !important;
+}
+
+.wr_avatar {
+    display: none;
+}

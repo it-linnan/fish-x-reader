@@ -1,0 +1,21 @@
+.app, .navBar {
+    background-color: rgba(${backgroundColor}) !important;
+}
+
+.wr_whiteTheme .navBar_border:after {
+    border: 0 !important;
+}
+
+.app div, h2, a {
+    color: rgba(${fontColor}) !important;
+}
+
+.wr_whiteTheme .navBar_input, .menu_container,
+.shelf_download_app_link,
+.navBar_link_Upload, .navBar_link_ink, .navBar_link_Phone, .navBar_separator {
+    display: none !important;
+}
+
+.wr_index_page_search_bar_input {
+    color: rgba(${fontColor}) !important;
+}
